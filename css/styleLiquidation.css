@@ -1,0 +1,57 @@
+.dataHeader1 {
+	background-color: rgb(121, 137, 141);
+	font-family: Oswald;
+	font-size: 18px;
+	color: white;
+	font-weight: bold;
+}
+@font-face {
+	font-family: "Oswald";
+	src: url("../fonts/Oswald-ExtraLight.ttf");
+}
+.countTotal {
+	padding-left: 2px;
+	font-size: 16px;
+	font-weight: normal;
+	color: orange;
+}
+body{
+	font-family:Oswald;
+	padding: 0;
+	margin:0;
+}
+.tdLabel {
+	text-align:right;
+	font-size:13px;
+	letter-spacing:1px;
+	vertical-align:top;
+}
+.tdValue {
+	font-weight:bold;
+	padding:5px 5px 0px 5px;
+}
+.wiggle{
+	animation: myfirst .4s;
+	animation-direction: alternate;
+		animation-timing-function: linear;
+	
+	-webkit-animation: myfirst .4s;
+	-webkit-animation-direction: alternate;
+		-webkit-animation-timing-function: linear;
+}
+@keyframes myfirst {
+	0%   { margin-left:0px; }
+	20%  { margin-left:-16px; }
+	40%  { margin-left:14px; }
+	60%  { margin-left:-12px; }
+	80%  { margin-left:12px; }
+	100% { margin-left:8px;}
+}
+@-webkit-keyframes myfirst {
+	0%   { margin-left:0px; }
+	20%  { margin-left:-16px; }
+	40%  { margin-left:14px; }
+	60%  { margin-left:-12px; }
+	80%  { margin-left:12px; }
+	100% { margin-left:8px;}
+}

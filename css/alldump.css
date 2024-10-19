@@ -1,0 +1,52 @@
+.balancesTableOBR,.balancesTableOBR1{
+	cursor: pointer;
+}
+.balancesTableOBR th{
+	background-color:rgb(70, 89, 106);
+	padding:5px;
+	color:white;
+}
+.balancesTableOBR td:nth-child(4){
+	background-color:rgb(241, 244, 230);
+	
+}
+.balancesTableOBR1 td:nth-child(4){
+	background-color:rgb(241, 244, 230);	
+}
+.balancesTableOBR1 td:nth-child(6){
+	background-color:rgb(241, 244, 230);	
+}
+.balancesTableOBR1 th{
+	background-color:rgb(70, 89, 106);
+	padding:5px;	
+	color:white;
+}
+.balancesTableOBR td{
+	border-bottom:1px solid white;
+	
+}
+
+.balancesTableOBR1 td{
+	border-bottom:1px solid white;
+}
+.balancesTableOBR tr:hover > td{
+	background-color:rgb(249, 234, 72); 
+}
+.balancesTableOBR1 tr:hover > td{
+	background-color:rgb(249, 234, 72); 
+}
+.balancesTableOBR tr:nth-child(even){ 
+	background-color:rgb(237, 243, 245);
+}
+.balancesTableOBR1 tr:nth-child(even){ 
+	background-color:rgb(237, 243, 245);
+}
+
+@font-face{
+	font-family: NOR;
+	//src: url(fonts/Roboto-Light.ttf);
+	//src: url(../fonts/Armata-Regular.ttf);
+	//src: url(../fonts/Monda-Regular.ttf);
+	//src: url(../fonts/Kameron-Regular.ttf);
+	src: url(../fonts/Abel-Regular.ttf);
+}
