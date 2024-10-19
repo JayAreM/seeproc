@@ -1304,7 +1304,7 @@ div {
 		ajaxGetAndConcatenate(queryString,processorLink,container,"returnOnlyLoaderjay");
 
 
-		console.log(par);
+		// console.log(par);
 	}
 
 	function showCalendar3() {
